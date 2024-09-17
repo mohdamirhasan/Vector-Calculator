@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vector Calculator</title>
+    <link rel="icon" type="calculator-icon" href="/assests/clipart3340290.png">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="vector-box">
+            <h1 class="poppins-black">Vector Calculator</h1>
+            <div class="first-vector">
+                <div class="input">
+                    <h4 class="poppins-medium">Vector 1</h4>
+                    <div class="i poppins-regular">
+                        <input type="number" placeholder="" name="first-i-vector" class="first-i-vector"
+                            id="first-i-vector">
+                        <label for="first-i-vector poppins-regular">i</label>
+                    </div>
+                    <div class="j poppins-regular">
+                        <input type="number" placeholder="" name="first-j-vector" class="first-j-vector"
+                            id="first-j-vector">
+                        <label for="first-j-vector poppins-regular">j</label>
+                    </div>
+                    <div class="k poppins-regular">
+                        <input type="number" placeholder="" name="first-k-vector" class="first-k-vector"
+                            id="first-k-vector">
+                        <label for="first-k-vector poppins-regular">k</label>
+                    </div>
+                </div>
+                <div class="output-first poppins-regular" id="output-first"></div>
+            </div>
+            <div class="second-vector">
+                <div class="input">
+                    <h4 class="poppins-medium">Vector 2</h4>
+                    <div class="i poppins-regular">
+                        <input type="number" placeholder="" name="second-i-vector" class="second-i-vector"
+                            id="second-i-vector">
+                        <label for="first-i-vector poppins-regular">i</label>
+                    </div>
+                    <div class="j poppins-regular">
+                        <input type="number" placeholder="" name="second-j-vector" class="second-j-vector"
+                            id="second-j-vector">
+                        <label for="second-j-vector poppins-regular">j</label>
+                    </div>
+                    <div class="k poppins-regular">
+                        <input type="number" placeholder="" name="second-k-vector" class="second-k-vector"
+                            id="second-k-vector">
+                        <label for="second-k-vector poppins-regular">k</label>
+                    </div>
+                </div>
+                <div class="output-second poppins-regular" id="output-second"></div>
+            </div>
+            <div class="solve-btns">
+                <a href="./#answer"><button class="add hover" id="add">SUM</button></a>
+                <a href="./#answer"><button class="cross hover" id="cross">CROSS PRODUCT</button></a>
+                <a href="./#answer"><button class="diff hover" id="diff">SUBTRACT</button></a>
+                <a href="./#answer"><button class="dot hover" id="dot">DOT PRODUCT</button></a>
+                <a href="./#answer"><button class="magnitude hover" id="magnitude-1">MAGNITUDE 1</button></a>
+                <a href="./#answer"><button class="magnitude hover" id="magnitude-2">MAGNITUDE 2</button></a>
+                <a href="./#answer"><button class="angle hover" id="angle">ANGLE</button></a>
+            </div>
+        </div>
+        <h2 class="poppins-bold">RESULT</h2>
+        <div class="answer poppins-medium" id="answer">i + j + k</div>
+    </div>
+    <footer>
+        <div class="upper">
+            <div class="right">
+                <h2 class="poppins-regular">Vector Calculator</h2>
+                <div class="disc poppins-light">This is a Vector where you can perform addition subtraction and
+                    multiplication both Dot Prodcut and Cross Product of two variable.</div>
+            </div>
+            <div class="left">
+                <ul>
+                    <a href="">
+                        <li class="poppins-light">Feedback</li>
+                    </a>
+                    <a href="">
+                        <li class="poppins-light">Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="lower poppins-regular" id="made-by"></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
